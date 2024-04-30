@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./Test.css";
+
+import "../companyprofile/Test.css";
 
 function Test() {
  
@@ -59,7 +58,7 @@ function Test() {
         <div>
           {}
           {selectedImage ? (
-            <img src={selectedImage} alt="Profile" className="avatar" />
+            <img src="../img/1.webp" alt="Profile" className="avatar" />
           ) : (
 			
             <div className="avatar">Profile image</div>

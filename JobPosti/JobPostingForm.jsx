@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import reactLogo from "./assets/react.svg";
-import DynamicFieldForm from "./DynamicFieldForm";
-import "./JobPostingForm.css";
+import "../JobPosti/DynamicFieldForm";
+import "../JobPosti/JobPostingForm.css"
 
 const JobPostingForm = () => {
   const [formData, setFormData] = useState({
@@ -44,7 +43,7 @@ const JobPostingForm = () => {
   return (
     <div className="container">
       <div>
-        <img src={reactLogo} className="logo react" alt="React logo" />
+        <img src="../" className="logo react" alt="React logo" />
       </div>
 
       <h1>Job Posting</h1>

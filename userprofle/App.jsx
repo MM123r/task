@@ -1,12 +1,13 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+
+import "../userprofle/App.css";
+
 
 function App() {
   return (
     <div className="profile-container">
       <div className="avatar-section">
-        <img src={reactLogo} className="avatar" alt="React logo" />
+        <img src= "../" className="avatar" alt="React logo" />
       </div>
       <div className="info-section">
         <h1 className="name">Jessica Alba</h1>
